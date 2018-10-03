@@ -15,7 +15,6 @@ def assign_rooms(arr)
   #x = arr.each do |y|
   #("Hello, #{y}! You'll be assigned to room #{cnt}!")
   x = Array.new.push(arr.each{|y| puts("Hello, #{y}! You'll be assigned to room #{cnt+=1}!")})
-    cnt += 1
   x
 end
 
