@@ -7,22 +7,22 @@ def batch_badge_creator(arr)
   arr.each do |y|
     x.push("Hello, my name is #{y}.")
   end
-  x 
+  x
 end
-  
+
 def assign_rooms(arr)
   x = []
-  cnt = 1 
+  cnt = 1
   arr.each do |y|
     x.push("Hello, #{y}! You'll be assigned to room #{cnt}!")
     cnt += 1
   end
-  x 
+  x
 end
 
 def printer (ar)
   batch_badge_creator(ar).each do |x|
-    puts x 
+    puts x
   end
   assign_rooms(ar).each{|x| puts x}
 end
