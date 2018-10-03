@@ -24,8 +24,6 @@ def printer (ar)
   batch_badge_creator(ar).each do |x|
     puts x 
   end
-  assign_rooms(ar).each do |x|
-    puts x 
-  end
+  assign_rooms(ar).each{|x| puts x}
 end
   
